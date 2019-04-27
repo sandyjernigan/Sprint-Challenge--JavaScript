@@ -153,7 +153,6 @@ The zoos need to know their total animal population across the United States.  F
 //   }, 0);
 // console.log(populationTotal);
 
-
 /* 
 
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
