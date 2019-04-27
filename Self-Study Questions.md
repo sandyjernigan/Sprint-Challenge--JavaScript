@@ -6,11 +6,12 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+> The methods .forEach and .map are similar in that they are both powerful tool to go thru an array and return an action for each item. However, forEach has to be directed to return a result, whereas .map will return a result with little to no additional direction.
 
 2. What is the difference between a function and a method?
 
 3. What is closure?
-Closures are, in part, referring to a function in relation to the environment within which it was declared. Another aspect of a closure is that it is a tool for passing data to the next interaction (or function) that is nested within the first function or outer scope. 
+
 
 4. Describe the four rules of the 'this' keyword.
 
