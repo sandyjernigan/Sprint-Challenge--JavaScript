@@ -12,7 +12,7 @@ Edit this document to include your answers after each question. Make sure to lea
 > A function is code that is called and data can be explicitly passed into the function. Whereas, a method (although similar to a function in how it behaves) is called while attached to an object which will be implictily passed into the function. 
 
 3. What is closure?
-Closures are, in part, referring to a function in relation to the environment within which it was declared. Another aspect of a closure is that it is a tool for passing data to the next interaction (or function) that is nested within the first function or outer scope. 
+> Closures are, in part, referring to a function in relation to the environment within which it was declared. Another aspect of a closure is that it is a tool for passing data to the next interaction (or function) that is nested within the first function or outer scope. 
 
 4. Describe the four rules of the 'this' keyword.
 
