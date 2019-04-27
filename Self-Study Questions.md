@@ -22,6 +22,8 @@ Edit this document to include your answers after each question. Make sure to lea
 > 4. Principle 4: Explicit binding - Using Javascripts .call or .apply will explicitly bind using this.
 
 5. Why do we need super() in an extended class?
+> The super() when used in an extended class is used like a function that will calls the parent class (that the new class is extended from) and uses the parameters and methods setup in the parent class. This is key to extended the new class so that it shares the same parameters and methods of the parent class. 
+
 
 ## Project Set up
 
