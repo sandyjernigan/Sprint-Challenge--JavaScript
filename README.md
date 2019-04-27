@@ -29,14 +29,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+> The methods .forEach and .map are similar in that they are both powerful tool to go thru an array and return an action for each item. However, forEach has to be directed to return a result, whereas .map will return a result with little to no additional direction.
 
 2. What is the difference between a function and a method?
+> A function is code that is called and data can be explicitly passed into the function. Whereas, a method (although similar to a function in how it behaves) is called while attached to an object which will be implictily passed into the function. 
 
 3. What is closure?
+> Closures are, in part, referring to a function in relation to the environment within which it was declared. Another aspect of a closure is that it is a tool for passing data to the next interaction (or function) that is nested within the first function or outer scope. 
 
 4. Describe the four rules of the 'this' keyword.
+> This is a placeholder (pronoun) to use for an object. 
+> 1. Principle 1: Window/Global Object Binding - This refers to the global or window object.
+> 2. Principle 2: Implicit Binding - When using a function or method the object left of the dot is 'this'. Allowing you to pass objects.
+> 3. Principle 3: New binding - This refers to the object that will be created.
+> 4. Principle 4: Explicit binding - Using Javascripts .call or .apply will explicitly bind using this.
 
 5. Why do we need super() in an extended class?
+> The super() when used in an extended class is used like a function that will calls the parent class (that the new class is extended from) and uses the parameters and methods setup in the parent class. This is key to extended the new class so that it shares the same parameters and methods of the parent class. 
 
 ## Project Set up
 
