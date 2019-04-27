@@ -15,6 +15,11 @@ Edit this document to include your answers after each question. Make sure to lea
 > Closures are, in part, referring to a function in relation to the environment within which it was declared. Another aspect of a closure is that it is a tool for passing data to the next interaction (or function) that is nested within the first function or outer scope. 
 
 4. Describe the four rules of the 'this' keyword.
+> This is a placeholder (pronoun) to use for an object. 
+> 1. Principle 1: Window/Global Object Binding - This refers to the global or window object.
+> 2. Principle 2: Implicit Binding - When using a function or method the object left of the dot is 'this'. Allowing you to pass objects.
+> 3. Principle 3: New binding - This refers to the object that will be created.
+> 4. Principle 4: Explicit binding - Using Javascripts .call or .apply will explicitly bind using this.
 
 5. Why do we need super() in an extended class?
 
